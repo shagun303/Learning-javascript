@@ -1,0 +1,36 @@
+body{
+    background-color: #d4edc3;
+display: flex;
+    margin:0;
+      align-items: center;
+      justify-content: center;
+       height: 100vh;
+       text-align: center;
+}
+.container{
+    background-color: #309858;
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+#get-weather-btn{
+    border:none;
+    background-color: rgba(3, 45, 3, 0.667);
+    color:white;
+    padding:5px;
+    border-radius: 3px;
+
+}
+
+#city-input{
+    outline:none;
+    border-radius: 3px;
+    border:none;
+    padding:4px;
+  color:rgb(46, 45, 45);
+
+}
+.hidden{
+    color:rgb(151, 25, 25);
+}
